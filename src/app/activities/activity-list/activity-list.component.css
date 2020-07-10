@@ -1,0 +1,31 @@
+.todo-header {
+    font-size: 3.175em!important;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: darkblue;
+    text-align: center;
+}
+
+.waiting-header {
+    font-size: 3.175em!important;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: darkred;
+    text-align: center;
+}
+
+.working-header {
+    font-size: 3.175em!important;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: darkolivegreen;
+    text-align: center;
+}
+
+.complete-header {
+    font-size: 3.175em!important;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: darksalmon;
+    text-align: center;
+}

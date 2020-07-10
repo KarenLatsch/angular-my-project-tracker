@@ -1,0 +1,42 @@
+<a 
+  style="cursor: pointer;"
+  [routerLink]="[index]"
+  routerLinkActive="active"
+  class="list-group-item clearfix">
+  <div class="pull-left" >
+    <h4 class="list-group-item-heading">{{ project.name }}</h4>
+    <p class="list-group-item-text">{{ project.benefit }}</p>
+    <!-- <p class="list-group-item-text">{{ project.status }}</p> -->
+  </div>
+  <span class="pull-right">
+    <div *ngIf="project.status == 'planning'">    
+      <img
+            src="assets/images/planning2.jpg"
+            alt="{{ project.status }}"
+            class="images"
+            style="max-height: 50px;">
+      </div>    
+    <div *ngIf="project.status == 'inprogress'">    
+      <img
+            src="assets/images/working.png"
+            alt="{{ project.status }}"
+            class="images"
+            style="max-height: 50px;">
+      </div>      
+    <div *ngIf="project.status == 'waiting'">    
+       <img
+            src="assets/images/waiting.jpg"
+            alt="{{ project.status }}"
+            class="images"
+            style="max-height: 50px;">
+       </div>            
+    <div *ngIf="project.status == 'complete'">    
+    <img
+          src="assets/images/complete.png"
+          alt="{{ project.status }}"
+          class="images"
+          style="max-height: 50px;">
+    </div>    
+  </span>
+</a>
+

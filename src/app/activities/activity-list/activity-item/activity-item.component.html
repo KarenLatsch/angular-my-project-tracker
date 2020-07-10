@@ -1,0 +1,19 @@
+<div style="margin-top: 10px;">
+  <a  
+      style="cursor: pointer;"
+      routerLinkActive="active"
+      (click)="onEditActivity()"
+      class="list-group-item clearfix">
+        <div class="pull-left">
+        <h5 class="list-group-item-heading" style="font-weight: bold;">{{ activity.projectName }}</h5>
+        <p class="list-group-item-text">{{ activity.activity.status }}</p>
+        <p class="list-group-item-text">{{ activity.activity.priority }}</p>
+        <p class="list-group-item-text">{{ activity.activity.actionStep }}</p>
+        <p class="list-group-item-text">{{ activity.activity.assignTo}} </p>
+      </div>
+  </a>
+ 
+</div>     
+  
+
+    

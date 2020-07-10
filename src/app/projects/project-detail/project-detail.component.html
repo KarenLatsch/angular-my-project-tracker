@@ -1,0 +1,50 @@
+<div class="row">
+  <div class="col-xs-12">
+      <button 
+      class="btn btn-primary" 
+      type="button" 
+      (click)="onEditProject()">Edit Project</button>
+      <button 
+      class="btn btn-danger" 
+      type="button" 
+      (click)="onDeleteProject()">Delete</button>
+  </div>
+</div> 
+<hr>
+<div class="row">
+  <div class="col-xs-12">
+     <h1>{{ project.name }}</h1>
+  </div>
+</div>
+<hr>
+<div class="row">
+  <div class="col-xs-12" style="font-weight: bolder;">
+      <h4 style="font-weight: bold;">Current Status</h4> 
+      <h4> {{ project.status }} </h4>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12" style="font-weight: bolder;">
+      <h4 style="font-weight: bold;">Type of Project</h4> 
+      <h4> {{ project.type }} </h4>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12">
+    <h4 style="font-weight: bold;">Benefit Description</h4>
+      <h4>{{ project.benefit }}</h4> 
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12">
+    <h4 style="font-weight: bold;">Vision of Success</h4>
+      <h4>{{ project.vision }}</h4>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-xs-12">
+    <h4 style="font-weight: bold;">Support Material Location</h4>
+    <h4> {{ project.supportMaterial }} </h4>
+  </div>
+</div>

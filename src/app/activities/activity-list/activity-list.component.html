@@ -1,0 +1,39 @@
+   
+<div class="row">
+
+  <div class="col-md-3">
+    <div class="todo-header"><h3>To Do</h3></div>
+        <app-activity-item
+        *ngFor="let activityEl of toDoActivities; let i = index"
+        [activity]="activityEl"
+        [index]="i"></app-activity-item>
+     </div> 
+
+  <div class="col-md-3">
+    <div class="waiting-header"><h3>Waiting</h3></div>
+        <app-activity-item
+        *ngFor="let activityEl of waitingActivities; let i = index"
+        [activity]="activityEl"
+        [index]="i"></app-activity-item>
+     </div> 
+
+  <div class="col-md-3">
+    <div class="working-header"><h3>Working</h3></div>
+      <app-activity-item
+      *ngFor="let activityEl of workingActivities; let i = index"
+        [activity]="activityEl"
+        [index]="i"></app-activity-item>
+     </div> 
+
+ <div class="col-md-3">
+  <div class="complete-header"><h3>Complete</h3></div>
+   <app-activity-item
+    *ngFor="let activityEl of completeActivities; let i = index"
+        [activity]="activityEl"
+        [index]="i"></app-activity-item> 
+    </div> 
+
+</div>
+    
+
+    
