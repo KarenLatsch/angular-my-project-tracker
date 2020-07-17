@@ -35,10 +35,10 @@ export class ProjectService {
         'See project folder on project drive marked ',
         [
           new Activity('Action 1 for Amazon', 1, 'Frank', 'Waiting', 'note'),
-          new Activity('Action 4 for Amazon', 4, 'Kory Daniels', 'To Do', 'note 1'),
-          new Activity('Action 3 for Amazon', 3, 'Kory Daniels', 'Working', 'note 2'),
-          new Activity('Action 2 for Amazon', 2, 'Kory Daniels', 'Waiting', 'note 3'),
-          new Activity('Action 1 for Amazon', 1, 'Kory Daniels', 'Complete', 'note 4')
+          new Activity('Action 4 for Amazon', 4, 'Kory', 'To Do', 'note 1'),
+          new Activity('Action 3 for Amazon', 3, 'Kory', 'Working', 'note 2'),
+          new Activity('Action 2 for Amazon', 2, 'Kory', 'Waiting', 'note 3'),
+          new Activity('Action 1 for Amazon', 1, 'Kory', 'Complete', 'note 4')
         ]),
         new Project(
           'Design New WebSite for Kohls',
@@ -49,10 +49,10 @@ export class ProjectService {
           'See project folder on project drive marked ',
           [
             new Activity('Action 1 for Kohls', 1, 'Kate', 'Working', 'note'),
-            new Activity('Action 4 for Kohls', 4, 'Kory Daniels', 'To Do', 'note 1'),
-            new Activity('Action 3 for Kohls', 3, 'Kory Daniels', 'Working', 'note 2'),
-            new Activity('Action 2 for Kohls', 2, 'Kory Daniels', 'Waiting', 'note 3'),
-            new Activity('Action 1 for Kohls', 1, 'Kory Daniels', 'Complete', 'note 4')
+            new Activity('Action 4 for Kohls', 4, 'Kory', 'To Do', 'note 1'),
+            new Activity('Action 3 for Kohls', 3, 'Kory', 'Working', 'note 2'),
+            new Activity('Action 2 for Kohls', 2, 'Kory', 'Waiting', 'note 3'),
+            new Activity('Action 1 for Kohls', 1, 'Kory', 'Complete', 'note 4')
           ]),
           new Project(
             'Design New WebSite for Walmart',
@@ -63,10 +63,10 @@ export class ProjectService {
             'See project folder on project drive marked ',
             [
               new Activity('Action 1 for Walmart', 1, 'Tina', 'Complete', 'note'),
-              new Activity('Action 4 for Walmart', 4, 'Kory Daniels', 'Complete', 'note 1'),
-              new Activity('Action 3 for Walmart', 3, 'Kory Daniels', 'Working', 'note 2'),
-              new Activity('Action 2 for Walmart', 2, 'Kory Daniels', 'Waiting', 'note 3'),
-              new Activity('Action 1 for Walmart', 1, 'Kory Daniels', 'Complete', 'note 4')
+              new Activity('Action 4 for Walmart', 4, 'Kory', 'Complete', 'note 1'),
+              new Activity('Action 3 for Walmart', 3, 'Kory', 'Working', 'note 2'),
+              new Activity('Action 2 for Walmart', 2, 'Kory', 'Waiting', 'note 3'),
+              new Activity('Action 1 for Walmart', 1, 'Kory', 'Complete', 'note 4')
             ])
     ];
   
